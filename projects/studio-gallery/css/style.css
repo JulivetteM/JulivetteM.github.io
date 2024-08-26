@@ -1,0 +1,33 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#image-1 {
+    width: 150px;
+    margin-top: 100px;
+    margin-right: 180px;
+    border: 8px solid rgb(35, 31, 31);
+    padding: 14px;
+    background-color: rgb(162, 150, 134);
+}
+
+#image-2 {
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border: 5px solid rgb(69, 24, 24);
+    padding: 5px;
+    background-color: rgb(162, 150, 134);;
+}
+
+#image-3 {
+    width: 100px;
+    margin-top: 130px;
+    margin-left: 60px;
+    border: 6px solid rgb(82, 80, 80); 
+}
