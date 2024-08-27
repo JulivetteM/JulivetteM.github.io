@@ -11,20 +11,51 @@
     width: 190px;
     padding: 45px;
     text-align: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
 }
 
 .post-it-2 {
     background-color: pink;
     width: 190px;
     padding: 25px;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-left: 20px;
+    margin-top: 50px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
 }
+
 
 .post-it-3 {
     background-color: orange;
     width: 190px;
     padding: 50px;
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-left: 10px;
+    margin-top: 100px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
 }
+
+.post-it-4 {
+    background-color: skyblue;
+    width: 190px;
+    padding: 50px;
+    margin-left: 250px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
+}
+
+.post-it-5 {
+    background-color: lime;
+    width: 190px;
+    padding: 50px;
+    margin-left: 250px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
+    display: inline-flex;
+    margin-bottom: 500px;
+}
+
+.post-it-6 {
+    background-color:coral;
+    width: 190px;
+    padding: 50px;
+    margin-left: 250px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.356);
+}
+  
