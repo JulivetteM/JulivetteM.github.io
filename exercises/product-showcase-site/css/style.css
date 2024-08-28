@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+.apple-1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apple-2 {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
