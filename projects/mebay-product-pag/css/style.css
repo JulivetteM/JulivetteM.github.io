@@ -7,11 +7,42 @@ body {
     font-family: sans-serif;
 }
 
- #grid-layout {
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#grid-layout {
     text-align: center;
     margin-bottom: 40px;
- }
+}
 
+#product-info {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-size:  40px;
+    font-weight: bold;
+}
+#info-1 {
+    border: 1px solid lightblue;
+    padding: 15px;
+}
+
+#info-2 {
+    border: 1px solid lightblue;
+    padding: 15px;
+}
+
+#info-3 {
+    border: 1px solid lightblue;
+    padding: 15px;
+}
 .button1 {
     background-color: blue;
     color: white;
@@ -40,4 +71,31 @@ body {
     min-width: 150px;
     text-align: center;
     margin: 12px 0px;
+} 
+
+#seller-info {
+    border: 1px solid lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+#sell-1 {
+    text-align: left;
+}
+
+#sell-2 {
+    text-align: left;
+}
+
+#sell-3 {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+#sell-4 {
+    text-align: left;
+}
+
+#sell-5 {
+    text-align: left;
 }
