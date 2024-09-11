@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/fog.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: cover cover;
+
+}
+
+#hero h1 {
+    display: inline-block;
+    margin: 5vh 2vw 10vh;
+    padding: 24px;
+}
