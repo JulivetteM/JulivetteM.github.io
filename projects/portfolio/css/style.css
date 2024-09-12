@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: slategrey;
 }
 
 #hero {   
@@ -25,18 +26,24 @@ body {
     margin-right: 5vw;
     color: aliceblue;
 }                  
-
+#layout {
+    max-width: 600px;
+    margin: 48px auto;
+    text-align: center;
+}
 .horizontal-masonry-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    
 }
     
     
 .horizontal-masonry-gallery img {
-    max-height: 800px;
-    max-width: 400px;
+    max-width: 450px;
     flex: 1;
-    object-fit: fill;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
     
