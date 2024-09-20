@@ -52,7 +52,7 @@ body {
     padding: 12px;
 }
     
-    #sidebar ul a:hover {
+#sidebar ul a:hover {
     background-color: #EEEEEE;
     border-radius: 12px;
 }
