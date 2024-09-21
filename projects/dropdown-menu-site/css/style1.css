@@ -5,12 +5,14 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #eec68b;
 }
 
 #navbar {
     background: linear-gradient(to bottom, #ddff47,#e1921c);
     display: flex;
     align-items: center;
+    margin-bottom: 80px;
 }
     
 #navbar a {
@@ -66,14 +68,21 @@ body {
     background: rgb(205, 103, 21);
 }
 
+#column {
+    width: 500px;
+    margin: 0px auto;
+}
+
 #max {
-   align-items: center;
-   text-align: center;
-   background-color: #e1921c;
-   border: 2px;
-   padding: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: #e1921c;
+    padding:  0px 24px 24px ;
+    
+}
 
-
+#max h1 {
+    padding-top: 35px;
 }
 
 #max img {
