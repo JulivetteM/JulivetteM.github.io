@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(90, 185, 90);
+    
+}
+
+#page-layout {
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+  
+}
+.teams img {
+    aspect-ratio: 1 / 1;
+    width:180px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.vs h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+  
+}
+
+.buc h2 {
+    text-align: center;
+}
+
+.steel h2 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    gap: 50px;
+    padding-left: 145px;
+   
+}
+
+.button p {
+    padding: 10px;
+    background-color: rgb(167, 205, 167);
+    transition: 0.1s;
+
+
+}
+
+.button p:hover {
+    background-color: darkgreen;
+    color: aliceblue;
+}
