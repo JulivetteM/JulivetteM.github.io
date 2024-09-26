@@ -29,6 +29,7 @@ body {
     width: 150px;
 }
 
+
 #grid-layout {
    display: grid;
    grid-template-columns: 1fr 3fr 1fr;
@@ -46,14 +47,14 @@ body {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
+
 }
 
 .food img {
     aspect-ratio: 1 / 1;
     width: 100%;
     object-fit: cover;
-    background: radial-gradient(at top left, crimson, orange);
-    border-radius: 8px;
+    padding-top: 30px;
 }
 
 .food .layout {
@@ -61,6 +62,10 @@ body {
     font-size: 14px;
 }
 
+.food:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 4px #00000033;
+}
 .name {
     font-size: 20px;
 }
