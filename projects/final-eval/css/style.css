@@ -15,6 +15,9 @@ body {
     text-align: center;
 }
 
+.join{
+    padding-top: 100px;
+}
 .teams {
     display: flex;
     justify-content: space-between;
